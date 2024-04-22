@@ -1,0 +1,102 @@
+* {
+    color: white;
+}
+nav {
+    background-color: blue;
+    padding: 20px;
+}
+h1:hover {
+    transition-duration: 1s;
+}
+h3 {
+    color:black;
+}
+p {
+    color: black;
+}
+h3:hover {
+    color: orange;
+    font-size: 30px;
+    transition-duration: 1s;
+
+}
+a:hover {
+    color: aqua;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+li {
+    display: inline-block;
+}
+div {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+.div-1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+.div-1:hover {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 1s;
+    font-display: 1.2px;
+    
+}
+.div-2 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.div-3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left:490px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.div-n1 {
+    background-color: blue;
+}
+.div-n2 {
+    background-color: green;
+}
+.div-n3 {
+    background-color: red;
+}
+@media screen and (max-width: 600px) {
+    li {
+        color: blue;
+    }
+    h1 {
+        display: none;
+    }
+}
